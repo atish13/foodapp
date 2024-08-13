@@ -1,0 +1,27 @@
+.container{
+    box-shadow: 0px 0px 6px rgba(0,0,0, 0.5);
+    padding: 20px;
+    font-family: sans-serif;
+}
+.heading{
+    justify-content: center;
+}
+
+.description>div{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+.list li{
+    margin: 10px;
+    color: rgba(29, 22, 22, 0.758);
+}
+.ingredients{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+.ingredientsDetails{
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
